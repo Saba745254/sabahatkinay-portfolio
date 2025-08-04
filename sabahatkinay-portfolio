@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,45 +32,6 @@
   </footer>
 </body>
 </html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Sabahattin Kinay">
-  <title>Portfolio - Sabahattin Kinay</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
-        <li><a href="contact.html" title="Contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h1>My Projects</h1>
-      <article class="project">
-        <h2>Responsive Portfolio Website</h2>
-        <img src="images/project1.jpg" alt="Screenshot of Responsive Portfolio Website">
-        <p>This is a modern, mobile-first portfolio built with HTML5, CSS3, and JavaScript, designed to showcase my skills as a web developer.</p>
-        <a href="#" title="Live Demo">Live Demo</a> |
-        <a href="#" title="View on GitHub">GitHub Code</a>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Sabahattin Kinay</p>
-  </footer>
-</body>
-</html>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -117,122 +77,31 @@
   <footer>
     <p>&copy; 2025 Sabahattin Kinay</p>
   </footer>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yourdomain.com/index.html</loc>
+    <lastmod>2025-08-04</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/portfolio.html</loc>
+    <lastmod>2025-08-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/contact.html</loc>
+    <lastmod>2025-08-04</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://yourdomain.com/privacy-policy.html</loc>
+    <lastmod>2025-08-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+</urlset>
+
   <script src="js/script.js"></script>
 </body>
 </html>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Privacy policy for Sabahattin Kinay's portfolio website.">
-  <meta name="author" content="Sabahattin Kinay">
-  <title>Privacy Policy - Sabahattin Kinay</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
-        <li><a href="contact.html" title="Contact">Contact</a></li>
-        <li><a href="privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="privacy">
-      <h1>Privacy Policy</h1>
-      <p>This privacy policy describes how this website collects, uses, and protects your personal information.</p>
-      <h2>Information Collected</h2>
-      <p>When you submit a message via the contact form, your name, email, and message are collected.</p>
-      <h2>Use of Information</h2>
-      <p>This information is used solely to respond to your inquiries and is not shared with third parties.</p>
-      <h2>Analytics</h2>
-      <p>This site may use Google Analytics to track anonymous usage data (e.g., pages visited, time spent).</p>
-      <h2>Contact</h2>
-      <p>If you have privacy concerns, contact: <a href="mailto:Sabahattin.CC204552@myciticollege.ca">Sabahattin.CC204552@myciticollege.ca</a></p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Sabahattin Kinay</p>
-  </footer>
-</body>
-</html>
-
-
-# Sabahattin Kinay - Web Developer Portfolio
-
-## Overview
-This is a professional web portfolio to showcase my skills and projects as a web developer. It includes:
-- A homepage with a personal introduction
-- A project showcase page
-- A contact page with form validation
-- A privacy policy
-- A sitemap for SEO
-
-## Structure
-```
-sabahatkinay-portfolio/
-├── index.html
-├── portfolio.html
-├── contact.html
-├── privacy-policy.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── images/
-│   ├── profile.jpg
-│   └── project1.jpg
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-  let valid = true;
-  const name = document.getElementById('name');
-  const email = document.getElementById('email');
-  const message = document.getElementById('message');
-  const nameError = document.getElementById('nameError');
-  const emailError = document.getElementById('emailError');
-  const messageError = document.getElementById('messageError');
-  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  if (name.value.trim() === '') {
-    nameError.textContent = 'Please enter your name.';
-    valid = false;
-  } else {
-    nameError.textContent = '';
-  }
-
-  if (!emailPattern.test(email.value.trim())) {
-    emailError.textContent = 'Please enter a valid email.';
-    valid = false;
-  } else {
-    emailError.textContent = '';
-  }
-
-  if (message.value.trim() === '') {
-    messageError.textContent = 'Please enter a message.';
-    valid = false;
-  } else {
-    messageError.textContent = '';
-  }
-
-  if (!valid) e.preventDefault();
-});
-
-└── docs/
-    └── sitemap.xml
-```
-
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript (for contact form validation)
-
-## Contact
-Email: Sabahattin.CC204552@myciticollege.ca
-
-## License
-Free to use for educational and portfolio purposes.
