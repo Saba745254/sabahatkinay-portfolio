@@ -15,7 +15,76 @@ sabahatkinay-portfolio/
 ├── index.html
 ├── portfolio.html
 ├── contact.html
-├── privacy-policy.html
+├── privacy-policy.html[Up
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #333;
+  padding: 10px;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: #555;
+}
+
+main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+main img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+a.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a.btn:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+loading style.css…]()
+
 ├── css/
 │   └── style.css
 ├── js/
