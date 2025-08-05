@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Sabahattin Kinay</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+        <li><a href="contact.html" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Contact Me</h1>
+      <form id="contactForm" action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          <span class="error" id="nameError"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          <span class="error" id="emailError"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+          <span class="error" id="messageError"></span>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Sabahattin Kinay</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
